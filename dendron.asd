@@ -3,7 +3,7 @@
 (asdf:defsystem #:dendron
   :serial t
   :description "Dendron is simple tool for calculating statistical support of dendrograms"
-  :author "Eugenio J. Llanos <ellanos@sciocorp.org>"
+  :author "Eugenio J. Llanos <ellanos@sciocorp.org> and Wilmer Leal <wilmerlealj@gmail.com>"
   :license "This product is realeased under the terms of GPL v3.0"
   :components ((:file "package")
 	       (:file "variables" :depends-on ("package"))
